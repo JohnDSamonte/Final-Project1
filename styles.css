@@ -1,43 +1,65 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Alternative energy!</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-      <h1 class="doctitle">Alternative energy! </h1>
-      <nav class="navbar">
-        <div class="navdiv">
-          <div class="logo"><img src="https://assets.onecompiler.app/42uvyagvn/42uxw93mf/Logo.png" alt="logo" width="150" height="150"></div>
-          <ul class="listnav">
-            <li><a href ="#">Home</a></li>
-            <li><a href ="#">About us</a></li>
-            <li><a href ="#">Learn more</a></li>
-            <li><a href ="#">Community</a></li>
-          </ul>
-        </div>
-      </nav>
-      <p>
-        <h3 class ="Headingofparagraph">What is Alternative energy?</h3>
-        <div class="Paragraph">
-          <img src ="https://assets.onecompiler.app/42uvyagvn/42uxw93mf/renewable_energy_sources.png" alt="picture" width="150" height="120">
-          <p>
-            Alternative Energy is another term we use for renewable energy. "renewable energy, usable energy derived from replenishable sources such as the Sun (solar energy), wind (wind power), rivers (hydroelectric power), hot springs (geothermal energy), tides (tidal power), and biomass (biofuels)." ("Renewable energy | Types, advantages, & facts," 2008)
-          </p>
-        </div>
-        <h3 class="Headingofparagraph">Types of Alternative Energy:</h3>
-        <div>
-          <p>
-            <img class="Paragraph" src="https://assets.onecompiler.app/42uvyagvn/42uxw93mf/Types%20of%20Energy.jpg" style="float: right;" width="400" height="150">
-            <ol class="Paragraph">
-              <li>Wind Power: Wind power uses the wind as a source of energy. It uses technologies like wind turbines.</li>
-              <li>Solar Power: Solar power uses the sun as a source of energy. It uses technologies like solar panels.</li>
-              <li>Hydro Power: It uses running water as a source of energy.</li>
-              <li>Geothermal Power: It uses underground reservoir of water to harness heat.</li>
-              <li>Ocean Energy: It uses energy from kinetic and thermal energy from the ocean.</li>
-            </ol>
-          </p>
-        </div>
-      </p>
-  </body>
-</html>
+body{
+  padding: 25px;
+  background-color: #29524A;
+  }
+  .doctitle{
+    color: black; background-color: #0081a7; border: 10px double #b5e2fa;
+  }
+  article{
+    color: white; background: #0081a7; border: 10px double white;
+  }
+  img{
+    float: left;
+    border: 10px double white;
+    display: block;
+  }
+  nav{
+    font-family: Calibri; 
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex; align-items: center; justify-content: space-between; background-color: #0081a7;
+    border: 5px dashed white;
+  }
+  Header{
+    color: #80ed99;
+    font-style: bold;
+    font-size: 50px;
+  }
+  h3{
+    color: #80ed99;
+    font-size: 30px;
+  }
+  li{
+    list-style: none; display: inline-block; <!-- this makes it so that it is in one line -->
+  }
+  p{
+    padding-left: 0px;
+  }
+  footer{
+    color: #29524A;
+    background-color: #80ed99;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+  }
+  li a:link{
+    display: block;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+  }
+  li a:visited{
+    color: black;
+  }
+  li a:hover {
+    background-color: rgb(38,70,83);
+    color: white;
+  }
+  li a.active {
+    background-color: rgb(138,177,125);
+    color: white;
+   }
+title{
+  color: #29524A;
+  background-color: #c7f9cc;
+}
