@@ -58,7 +58,21 @@ body{
   li a.active {
     background-color: rgb(138,177,125);
     color: white;
-   }
+  }
+  iframe{
+  float: right;
+  }
+  .icon{
+	background: url('spritesheet.png') no-repeat -20px -22px;
+	width: 63px;
+	height: 64px;
+        background-image: url('energy-icons.png'); /* Path to your sprite sheet */
+        background-size: cover; /* Ensures the image covers the div */
+  }
+  .spritesheet{
+    background-position: -10px -20px; /* Adjust these values to show the correct icon */
+  }
+}
 title{
   color: #29524A;
   background-color: #c7f9cc;
